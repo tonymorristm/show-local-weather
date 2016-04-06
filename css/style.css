@@ -1,0 +1,93 @@
+body {
+	background: grey;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+
+/* formatting of box that contains location & text */
+#location-box {
+	font-size: 75px;
+  color: white;
+  text-shadow: 6px 6px 2px black;
+	padding-top: 25px;
+	padding-bottom: 45px;
+}
+
+/* formatting of boxes that contain temperature and weather icon */
+#temp-box, #icon-box  {
+	display: inline-block; 
+  vertical-align: top;
+	background:rgba(255,255,255,.35);
+	border: 2px solid black;
+	border-radius: 15%;
+  margin: 0 25px 15px 0;
+	width: 200px;
+	height: 190px;
+}
+
+/* formatting of text for temperatures and conditions */
+.tempF, .tempC, .conditions {
+  font-size: 45px;
+  color: white;
+  text-shadow: 4px 4px 2px black;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* formatting of box that contain conditions */
+#conditions-box {
+	display: inline-block;
+  vertical-align: top;
+	background:rgba(255,255,255,.35);
+	border: 2px solid black;
+	border-radius: 15%;
+  margin: 0 25px 15px 0;
+	width: 310px;
+	height: 190px;
+}
+
+/* weather icon formatting */
+.icon {
+  font-size: 65px;
+  color: white;
+  text-shadow: 4px 4px 2px black;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* celsius & farenheit button formatting */
+.btn-primary {
+  background-color: #006400;
+  margin: 25px 6px 0 6px;
+}
+
+/* footer formatting */
+.footer {
+  background: rgba(0, 0, 0, .7);
+  width: 100%;
+  font-size: 15px;
+  padding-top: 8px;
+  padding-bottom: 3px;
+}
+
+.footer-text {
+  color: rgb(128,128,128);
+}
+
+.footer-icons {
+  font-size: 23px;
+}
